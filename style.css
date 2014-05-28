@@ -1,0 +1,29 @@
+/*
+Theme Name: Enfold Child Docs
+Description: Branched from the Enfold Starter Child Theme to create a better documentation base
+Version: 1.0
+Author: Devin Vinson @ Kriesi.at
+Author URI: http://www.kriesi.at
+Template: enfold
+*/
+
+
+
+/* Resets
+================================================== */
+
+
+/* Typography
+================================================== */
+
+
+
+/* Header
+================================================== */
+
+.logo img {
+padding-top: 5%;
+}
+.header-scrolled .logo img { padding-top:5px;}
+/* Body Content
+================================================== */
