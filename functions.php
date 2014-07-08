@@ -5,7 +5,7 @@
  * @since Enfold Starter 1.0
  *
  * Add your own functions here. You can also copy some of the theme functions into this file. 
- * Wordpress will use those functions instead of the original functions then.
+ * WordPress will use those functions instead of the original functions then.
  * 
  * @link http://www.kriesi.at/documentation/enfold/using-a-child-theme/
  */
@@ -28,7 +28,7 @@ function avia_include_shortcode_template($paths)
 
 	return $paths;
 }
-
+// Replaced Magazine Shortcode so that it will use get_post_modified_time instead of get_the_time
 
 /**
  *	Turn on Custom CSS Class field for all Avia Layout Builder elements
@@ -44,3 +44,8 @@ function builder_set_debug()
 {
 	return "debug";
 }
+
+/**
+ *  Better FAQ linking
+ */
+add_theme_support('avia_template_builder_custom_tab_toogle_id');

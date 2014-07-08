@@ -1,6 +1,4 @@
-enfold-child-starter
+enfold-child-docs
 ====================
 
-A Basic Child theme for the Enfold theme. 
-
-Includes some basic functions to get you started and the style.css to add your custom css.
+Child theme used on the Enfold documentation site.

@@ -7,6 +7,15 @@ Author URI: http://www.kriesi.at
 Template: enfold
 */
 
+/* Colors
+
+Videos: #E67E22
+Tutorials: #F1C40F
+FAQ: #1ABC9C
+Code: #3498DB
+Downloads: #9B59B6
+
+*/
 
 
 /* Resets
@@ -25,5 +34,30 @@ Template: enfold
 padding-top: 5%;
 }
 .header-scrolled .logo img { padding-top:5px;}
-/* Body Content
+
+/* Pages - Home Page
+================================================== */
+
+.video-icon a {
+  color: #E67E22 !important;
+  border-color: #E67E22 !important;
+}
+.tutorial-icon a {
+  color: #F1C40F !important;
+  border-color: #F1C40F !important;
+}
+.faq-icon a {
+  color: #1ABC9C !important;
+  border-color: #1ABC9C !important;
+}
+.code-icon a {
+  color: #3498DB !important;
+  border-color: #3498DB !important;
+}
+.downloads-icon a {
+  color: #9B59B6 !important;
+  border-color: #9B59B6 !important;
+}
+
+/* Pages -
 ================================================== */
