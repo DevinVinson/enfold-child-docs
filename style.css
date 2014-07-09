@@ -35,29 +35,64 @@ padding-top: 5%;
 }
 .header-scrolled .logo img { padding-top:5px;}
 
-/* Pages - Home Page
-================================================== */
-
-.video-icon a {
-  color: #E67E22 !important;
-  border-color: #E67E22 !important;
-}
-.tutorial-icon a {
-  color: #F1C40F !important;
-  border-color: #F1C40F !important;
-}
-.faq-icon a {
-  color: #1ABC9C !important;
-  border-color: #1ABC9C !important;
-}
-.code-icon a {
-  color: #3498DB !important;
-  border-color: #3498DB !important;
-}
-.downloads-icon a {
-  color: #9B59B6 !important;
-  border-color: #9B59B6 !important;
-}
-
 /* Pages -
 ================================================== */
+
+
+.video-icon a {
+    color: #E67E22 !important;
+    border-color: #E67E22 !important;
+}
+.tutorial-icon a {
+    color: #F1C40F !important;
+    border-color: #F1C40F !important;
+}
+.faq-icon a {
+    color: #1ABC9C !important;
+    border-color: #1ABC9C !important;
+}
+.code-icon a {
+    color: #3498DB !important;
+    border-color: #3498DB !important;
+}
+.downloads-icon a {
+    color: #9B59B6 !important;
+    border-color: #9B59B6 !important;
+}
+
+/*Post Feed Customization*/
+#top .avia-content-slider h3 {
+  font-family: 'Open Sans';
+}
+
+.normal-caps,
+.normal-caps h1,
+.normal-caps h2,
+.normal-caps h3,
+.normal-caps h4 {
+    text-transform: none !important;
+}
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+
+/*Make the search menu icon bigger*/
+#top .menu-item-search-dropdown > a {
+font-size: 36px;
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  
+
+}
