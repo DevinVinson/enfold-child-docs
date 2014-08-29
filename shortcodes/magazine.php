@@ -1,8 +1,8 @@
 <?php
 /**
- * Post/Page Content
+ * Magazine shortocde
  *
- * Element is in Beta and by default disabled. Todo: test with layerslider elements. currently throws error bc layerslider is only included if layerslider element is detected which is not the case with the post/page element
+ * 
  */
 
 if ( !class_exists( 'avia_sc_magazine' ))
